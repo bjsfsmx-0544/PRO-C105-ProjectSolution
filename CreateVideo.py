@@ -30,6 +30,6 @@ for i in range(0,count):
      frame = cv2.imread(images[i])
      out.write(frame)
     
-out.release() # releasing the video generated
-print("done")
+out.release() # Liberar el video generado
+print("Listo")
 
